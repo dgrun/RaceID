@@ -11,3 +11,6 @@ RaceID sample code: RaceID_sample.R
 RaceID reference manual: Reference_manual_RaceID.pdf 
 RaceID sample data: transcript_counts_intestine.xls
 
+If you use RaceID please cite:
+
+
