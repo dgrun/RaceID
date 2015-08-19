@@ -13,4 +13,6 @@ RaceID sample data: transcript_counts_intestine.xls
 
 If you use RaceID please cite:
 
+Dominic Grün, Anna Lyubimova, Lennart Kester, Kay Wiebrands, Onur Basak, Nobuo Sasaki, Hans Clevers & Alexander van Oudenaarden (2015) Single-cell mRNA sequencing reveals rare intestinal cell types. Nature DOI:10.1038/nature14966
+
 
