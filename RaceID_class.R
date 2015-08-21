@@ -19,9 +19,9 @@ setValidity("SCseq",
               msg <- NULL
               if ( ! is.data.frame(object@expdata) ){
                 msg <- c(msg, "input data must be data.frame")
-              }else if ( nrow(prdata) < 2 ){
+              }else if ( nrow(object@expdata) < 2 ){
                 msg <- c(msg, "input data must have more than one row")
-              }else if ( ncol(prdata) < 2 ){
+              }else if ( ncol(object@expdata) < 2 ){
                 msg <- c(msg, "input data must have more than one column")
               }else if (sum( apply( is.na(object@expdata),1,sum ) ) > 0 ){
                 msg <- c(msg, "NAs are not allowed in input data")
