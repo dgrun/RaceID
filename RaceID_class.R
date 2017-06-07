@@ -75,7 +75,7 @@ setMethod("filterdata",
 downsample <- function(x,n,dsn){
   x <- round( x[,apply(x,2,sum,na.rm=TRUE) >= n], 0)
   nn <- min( apply(x,2,sum) )
-  for ( j in 1:dsn ){
+  for ( j in seq(dsn) ){
     z  <- data.frame(GENEID=rownames(x))
     rownames(z) <- rownames(x)
     initv <- rep(0,nrow(z))
